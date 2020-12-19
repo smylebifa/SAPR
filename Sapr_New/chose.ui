@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Chose</class>
+ <widget class="QDialog" name="Chose">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>322</width>
+    <height>253</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>80</y>
+     <width>161</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true"> font: 12pt &quot;Times New Roman&quot;;
+ color:white;
+background: #696969;;
+border: 2px solid #696969;
+border-radius: 12px; /* Радиус закругленых углов кнопки */</string>
+      </property>
+      <property name="text">
+       <string>Создание конструкции</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true"> font: 12pt &quot;Times New Roman&quot;;
+ color:white;
+background: #696969;;
+border: 2px solid #696969;
+border-radius: 12px; /* Радиус закругленых углов кнопки */</string>
+      </property>
+      <property name="text">
+       <string>Загрузка конструкции</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
